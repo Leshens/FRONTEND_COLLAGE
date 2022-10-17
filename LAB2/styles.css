@@ -1,0 +1,115 @@
+body
+{
+    background-color: #e5e5e5;
+    color: #000000;
+    width: auto;
+    height: auto;
+    font-family: "Tahoma", sans-serif;
+}
+main
+{
+    width: auto;
+    height: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header
+{
+    background-color: #fca311;
+    text-align: center;
+    padding: 5px;
+}
+section{
+    border: 10px solid #fca311;
+    padding: 10px;
+    width: 1024px;
+    height: 1024px;
+}
+footer{
+    background-color: #fca311;
+    bottom:0;
+}
+img {
+    width: 1024px;
+    height: 1024px;
+    object-fit: contain;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+h1.logo{
+    color: #000000;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h1.foot{
+    color: #000000;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: lowercase;
+}
+.text{
+    background-color: #14213d;
+    color:#ffffff;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
